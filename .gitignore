@@ -1,0 +1,88 @@
+# Python / FastAPI Specific
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/  # Note: Also used by frontend build, careful if backend uses 'dist' too
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.hypothesis/
+.pytest_cache/
+celerybeat-schedule
+celerybeat.pid
+
+# Virtual environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE / Editor specific
+.idea/
+.vscode/
+*.swp
+*~
+.project
+.pydevproject
+.settings/
+.classpath
+
+# MacOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Node / React / Vite / Bun Specific
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.npm/
+.yarn/
+# Bun - lockfile (bun.lockb) should generally be committed, but can be ignored if needed
+# bun.lockb
+/dist/ # Vite/frontend build output (use /railgptfrontend/dist/ if backend also uses dist/)
+/.vite/ # Vite cache/dev files
+*.local
+
+# Secrets - Add if you use .env files for secrets and don't want them committed
+# **/.env*
+# !.env.example
+
+# Linter cache
+.eslintcache 
